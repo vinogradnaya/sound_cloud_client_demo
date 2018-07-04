@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B19342D1BCBAE6500DF3D33 /* TTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B19342C1BCBAE6500DF3D33 /* TTConstants.m */; };
+		1B1934301BCBB1EC00DF3D33 /* NSString+TTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B19342F1BCBB1EC00DF3D33 /* NSString+TTExtras.m */; };
+		1B43B6A61BC520F3004A9887 /* TTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B43B6A51BC520F3004A9887 /* TTUser.m */; };
+		1B43B6A71BC520F3004A9887 /* TTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B43B6A51BC520F3004A9887 /* TTUser.m */; };
+		1B43B6AF1BC529B5004A9887 /* TTUserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B43B6AE1BC529B5004A9887 /* TTUserBuilder.m */; };
+		1B43B6B01BC529B5004A9887 /* TTUserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B43B6AE1BC529B5004A9887 /* TTUserBuilder.m */; };
+		1B43B6BA1BC53B5E004A9887 /* NSDictionary+TTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B43B6B91BC53B5E004A9887 /* NSDictionary+TTExtras.m */; };
+		1B7360741BC7CBA300CC76C9 /* TTTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7360731BC7CBA300CC76C9 /* TTTrack.m */; };
+		1B7360751BC7CBA300CC76C9 /* TTTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7360731BC7CBA300CC76C9 /* TTTrack.m */; };
+		1B7360781BC7F54D00CC76C9 /* TTCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7360771BC7F54D00CC76C9 /* TTCoreDataManager.m */; };
+		1B7360791BC7F54D00CC76C9 /* TTCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7360771BC7F54D00CC76C9 /* TTCoreDataManager.m */; };
+		1B73607C1BC7FF8300CC76C9 /* TTParsedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B73607B1BC7FF8300CC76C9 /* TTParsedUser.m */; };
+		1B73607D1BC7FF8300CC76C9 /* TTParsedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B73607B1BC7FF8300CC76C9 /* TTParsedUser.m */; };
+		1B7360801BC7FF9F00CC76C9 /* TTParsedTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B73607F1BC7FF9F00CC76C9 /* TTParsedTrack.m */; };
+		1B7360811BC7FF9F00CC76C9 /* TTParsedTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B73607F1BC7FF9F00CC76C9 /* TTParsedTrack.m */; };
+		1B7360831BC8161F00CC76C9 /* TTParsedUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7360821BC8161F00CC76C9 /* TTParsedUserTests.m */; };
+		1B7D42ED1BCBDB4300F32CAE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D42EB1BCBDB4300F32CAE /* icon@2x.png */; };
+		1B7D42EE1BCBDB4300F32CAE /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D42EC1BCBDB4300F32CAE /* icon@3x.png */; };
+		1B9959E91BC2BD760070B1E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9959E81BC2BD760070B1E4 /* main.m */; };
+		1B9959EC1BC2BD760070B1E4 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9959EB1BC2BD760070B1E4 /* TTAppDelegate.m */; };
+		1B9959EF1BC2BD760070B1E4 /* TTChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B9959ED1BC2BD760070B1E4 /* TTChallenge.xcdatamodeld */; };
+		1B9959F21BC2BD760070B1E4 /* TTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9959F11BC2BD760070B1E4 /* TTMainViewController.m */; };
+		1B9959F51BC2BD760070B1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9959F31BC2BD760070B1E4 /* Main.storyboard */; };
+		1B9959F71BC2BD760070B1E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9959F61BC2BD760070B1E4 /* Images.xcassets */; };
+		1B9959FA1BC2BD760070B1E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9959F81BC2BD760070B1E4 /* LaunchScreen.xib */; };
+		1B995A061BC2BD760070B1E4 /* TTChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A051BC2BD760070B1E4 /* TTChallengeTests.m */; };
+		1B995A181BC3BA670070B1E4 /* TTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A151BC3BA670070B1E4 /* TTReachability.m */; };
+		1B995A191BC3BA670070B1E4 /* TTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A151BC3BA670070B1E4 /* TTReachability.m */; };
+		1B995A1E1BC3BAF30070B1E4 /* TTHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A1B1BC3BAF30070B1E4 /* TTHTTPClient.m */; };
+		1B995A1F1BC3BAF30070B1E4 /* TTHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A1B1BC3BAF30070B1E4 /* TTHTTPClient.m */; };
+		1B995A201BC3BAF30070B1E4 /* TTImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A1D1BC3BAF30070B1E4 /* TTImageCache.m */; };
+		1B995A211BC3BAF30070B1E4 /* TTImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B995A1D1BC3BAF30070B1E4 /* TTImageCache.m */; };
+		1BA1E5271BCA81D000F02C1C /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E5261BCA81D000F02C1C /* UIImageEffects.m */; };
+		1BA1E5281BCA81D000F02C1C /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E5261BCA81D000F02C1C /* UIImageEffects.m */; };
+		1BA1E5301BCA825100F02C1C /* TTBlurredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52A1BCA825100F02C1C /* TTBlurredImageView.m */; };
+		1BA1E5311BCA825100F02C1C /* TTBlurredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52A1BCA825100F02C1C /* TTBlurredImageView.m */; };
+		1BA1E5321BCA825100F02C1C /* TTGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52C1BCA825100F02C1C /* TTGradientBackgroundView.m */; };
+		1BA1E5331BCA825100F02C1C /* TTGradientBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52C1BCA825100F02C1C /* TTGradientBackgroundView.m */; };
+		1BA1E5341BCA825100F02C1C /* TTGradientBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E52D1BCA825100F02C1C /* TTGradientBackgroundView.xib */; };
+		1BA1E5351BCA825100F02C1C /* TTGradientBackgroundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E52D1BCA825100F02C1C /* TTGradientBackgroundView.xib */; };
+		1BA1E5361BCA825100F02C1C /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52F1BCA825100F02C1C /* TTImageView.m */; };
+		1BA1E5371BCA825100F02C1C /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E52F1BCA825100F02C1C /* TTImageView.m */; };
+		1BA1E53A1BCA831A00F02C1C /* UIImage+TTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E5391BCA831A00F02C1C /* UIImage+TTExtras.m */; };
+		1BA1E53B1BCA831A00F02C1C /* UIImage+TTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E5391BCA831A00F02C1C /* UIImage+TTExtras.m */; };
+		1BA1E53F1BCA8BF200F02C1C /* TTTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E53D1BCA8BF200F02C1C /* TTTrackTableViewCell.m */; };
+		1BA1E5401BCA8BF200F02C1C /* TTTrackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E53D1BCA8BF200F02C1C /* TTTrackTableViewCell.m */; };
+		1BA1E5411BCA8BF200F02C1C /* TTTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E53E1BCA8BF200F02C1C /* TTTrackTableViewCell.xib */; };
+		1BA1E5421BCA8BF200F02C1C /* TTTrackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E53E1BCA8BF200F02C1C /* TTTrackTableViewCell.xib */; };
+		1BA1E54C1BCAC7F500F02C1C /* TTUserSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E54B1BCAC7F500F02C1C /* TTUserSectionHeaderView.m */; };
+		1BA1E54D1BCAC7F500F02C1C /* TTUserSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1E54B1BCAC7F500F02C1C /* TTUserSectionHeaderView.m */; };
+		1BA1E54F1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E54E1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib */; };
+		1BA1E5501BCAC80C00F02C1C /* TTUserSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BA1E54E1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib */; };
+		1BA2C5DF1BC8F8D20031AFFC /* TTParsedTrackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5DE1BC8F8D20031AFFC /* TTParsedTrackTests.m */; };
+		1BA2C5E21BC902950031AFFC /* TTMockCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5E11BC902950031AFFC /* TTMockCoreDataManager.m */; };
+		1BA2C5EA1BC907CF0031AFFC /* TTUserBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5E91BC907CF0031AFFC /* TTUserBuilderTests.m */; };
+		1BA2C5ED1BC91B250031AFFC /* TTSoundCloudManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5EC1BC91B250031AFFC /* TTSoundCloudManagerTests.m */; };
+		1BA2C5F01BC91BBC0031AFFC /* TTStubReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5EF1BC91BBC0031AFFC /* TTStubReachability.m */; };
+		1BA2C5F31BC920210031AFFC /* TTStubHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5F21BC920210031AFFC /* TTStubHTTPClient.m */; };
+		1BA2C5F61BC9234E0031AFFC /* TTMockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5F51BC9234E0031AFFC /* TTMockObserver.m */; };
+		1BA2C5F91BC924670031AFFC /* TTStubUserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5F81BC924670031AFFC /* TTStubUserBuilder.m */; };
+		1BA2C5FC1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5FB1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m */; };
+		1BA2C5FD1BC937E00031AFFC /* TTSoundCloudManager+TTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2C5FB1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m */; };
+		1BAB093E1BC3C99D003F6256 /* TTSoundCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB093D1BC3C99D003F6256 /* TTSoundCloudManager.m */; };
+		1BAB093F1BC3C99D003F6256 /* TTSoundCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB093D1BC3C99D003F6256 /* TTSoundCloudManager.m */; };
+		1BAB094E1BC403DE003F6256 /* TTMockSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB094D1BC403DE003F6256 /* TTMockSession.m */; };
+		1BAB09501BC40AFC003F6256 /* TTHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAB094F1BC40AFC003F6256 /* TTHTTPClientTests.m */; };
+		1BAB09521BC4293E003F6256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB09511BC4293E003F6256 /* test.png */; };
+		1BAB09531BC42C8E003F6256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BAB09511BC4293E003F6256 /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B995A001BC2BD760070B1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9959DB1BC2BD750070B1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9959E21BC2BD750070B1E4;
+			remoteInfo = TTChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B19342B1BCBAE6500DF3D33 /* TTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConstants.h; sourceTree = "<group>"; };
+		1B19342C1BCBAE6500DF3D33 /* TTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTConstants.m; sourceTree = "<group>"; };
+		1B19342E1BCBB1EC00DF3D33 /* NSString+TTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TTExtras.h"; sourceTree = "<group>"; };
+		1B19342F1BCBB1EC00DF3D33 /* NSString+TTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TTExtras.m"; sourceTree = "<group>"; };
+		1B43B6A41BC520F3004A9887 /* TTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUser.h; sourceTree = "<group>"; };
+		1B43B6A51BC520F3004A9887 /* TTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUser.m; sourceTree = "<group>"; };
+		1B43B6AD1BC529B5004A9887 /* TTUserBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserBuilder.h; sourceTree = "<group>"; };
+		1B43B6AE1BC529B5004A9887 /* TTUserBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserBuilder.m; sourceTree = "<group>"; };
+		1B43B6B61BC52CA8004A9887 /* TTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDefines.h; sourceTree = "<group>"; };
+		1B43B6B81BC53B5E004A9887 /* NSDictionary+TTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TTExtras.h"; sourceTree = "<group>"; };
+		1B43B6B91BC53B5E004A9887 /* NSDictionary+TTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TTExtras.m"; sourceTree = "<group>"; };
+		1B7360721BC7CBA300CC76C9 /* TTTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTrack.h; sourceTree = "<group>"; };
+		1B7360731BC7CBA300CC76C9 /* TTTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTrack.m; sourceTree = "<group>"; };
+		1B7360761BC7F54D00CC76C9 /* TTCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCoreDataManager.h; sourceTree = "<group>"; };
+		1B7360771BC7F54D00CC76C9 /* TTCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCoreDataManager.m; sourceTree = "<group>"; };
+		1B73607A1BC7FF8300CC76C9 /* TTParsedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTParsedUser.h; sourceTree = "<group>"; };
+		1B73607B1BC7FF8300CC76C9 /* TTParsedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTParsedUser.m; sourceTree = "<group>"; };
+		1B73607E1BC7FF9F00CC76C9 /* TTParsedTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTParsedTrack.h; sourceTree = "<group>"; };
+		1B73607F1BC7FF9F00CC76C9 /* TTParsedTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTParsedTrack.m; sourceTree = "<group>"; };
+		1B7360821BC8161F00CC76C9 /* TTParsedUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTParsedUserTests.m; sourceTree = "<group>"; };
+		1B7D42EB1BCBDB4300F32CAE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1B7D42EC1BCBDB4300F32CAE /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		1B9959E31BC2BD760070B1E4 /* TTChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9959E71BC2BD760070B1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9959E81BC2BD760070B1E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B9959EA1BC2BD760070B1E4 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		1B9959EB1BC2BD760070B1E4 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		1B9959EE1BC2BD760070B1E4 /* TTChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTChallenge.xcdatamodel; sourceTree = "<group>"; };
+		1B9959F01BC2BD760070B1E4 /* TTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTMainViewController.h; sourceTree = "<group>"; };
+		1B9959F11BC2BD760070B1E4 /* TTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTMainViewController.m; sourceTree = "<group>"; };
+		1B9959F41BC2BD760070B1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9959F61BC2BD760070B1E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B9959F91BC2BD760070B1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B9959FF1BC2BD760070B1E4 /* TTChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B995A041BC2BD760070B1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B995A051BC2BD760070B1E4 /* TTChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTChallengeTests.m; sourceTree = "<group>"; };
+		1B995A141BC3BA670070B1E4 /* TTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTReachability.h; sourceTree = "<group>"; };
+		1B995A151BC3BA670070B1E4 /* TTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTReachability.m; sourceTree = "<group>"; };
+		1B995A1A1BC3BAF30070B1E4 /* TTHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHTTPClient.h; sourceTree = "<group>"; };
+		1B995A1B1BC3BAF30070B1E4 /* TTHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHTTPClient.m; sourceTree = "<group>"; };
+		1B995A1C1BC3BAF30070B1E4 /* TTImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageCache.h; sourceTree = "<group>"; };
+		1B995A1D1BC3BAF30070B1E4 /* TTImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageCache.m; sourceTree = "<group>"; };
+		1BA1E5251BCA81D000F02C1C /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		1BA1E5261BCA81D000F02C1C /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		1BA1E5291BCA825100F02C1C /* TTBlurredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBlurredImageView.h; sourceTree = "<group>"; };
+		1BA1E52A1BCA825100F02C1C /* TTBlurredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBlurredImageView.m; sourceTree = "<group>"; };
+		1BA1E52B1BCA825100F02C1C /* TTGradientBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTGradientBackgroundView.h; sourceTree = "<group>"; };
+		1BA1E52C1BCA825100F02C1C /* TTGradientBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTGradientBackgroundView.m; sourceTree = "<group>"; };
+		1BA1E52D1BCA825100F02C1C /* TTGradientBackgroundView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTGradientBackgroundView.xib; sourceTree = "<group>"; };
+		1BA1E52E1BCA825100F02C1C /* TTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageView.h; sourceTree = "<group>"; };
+		1BA1E52F1BCA825100F02C1C /* TTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageView.m; sourceTree = "<group>"; };
+		1BA1E5381BCA831A00F02C1C /* UIImage+TTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TTExtras.h"; sourceTree = "<group>"; };
+		1BA1E5391BCA831A00F02C1C /* UIImage+TTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TTExtras.m"; sourceTree = "<group>"; };
+		1BA1E53C1BCA8BF200F02C1C /* TTTrackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTrackTableViewCell.h; sourceTree = "<group>"; };
+		1BA1E53D1BCA8BF200F02C1C /* TTTrackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTrackTableViewCell.m; sourceTree = "<group>"; };
+		1BA1E53E1BCA8BF200F02C1C /* TTTrackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTrackTableViewCell.xib; sourceTree = "<group>"; };
+		1BA1E54A1BCAC7F500F02C1C /* TTUserSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserSectionHeaderView.h; sourceTree = "<group>"; };
+		1BA1E54B1BCAC7F500F02C1C /* TTUserSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserSectionHeaderView.m; sourceTree = "<group>"; };
+		1BA1E54E1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTUserSectionHeaderView.xib; sourceTree = "<group>"; };
+		1BA2C5DE1BC8F8D20031AFFC /* TTParsedTrackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTParsedTrackTests.m; sourceTree = "<group>"; };
+		1BA2C5E01BC902950031AFFC /* TTMockCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMockCoreDataManager.h; sourceTree = "<group>"; };
+		1BA2C5E11BC902950031AFFC /* TTMockCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMockCoreDataManager.m; sourceTree = "<group>"; };
+		1BA2C5E91BC907CF0031AFFC /* TTUserBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserBuilderTests.m; sourceTree = "<group>"; };
+		1BA2C5EC1BC91B250031AFFC /* TTSoundCloudManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSoundCloudManagerTests.m; sourceTree = "<group>"; };
+		1BA2C5EE1BC91BBC0031AFFC /* TTStubReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStubReachability.h; sourceTree = "<group>"; };
+		1BA2C5EF1BC91BBC0031AFFC /* TTStubReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStubReachability.m; sourceTree = "<group>"; };
+		1BA2C5F11BC920210031AFFC /* TTStubHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStubHTTPClient.h; sourceTree = "<group>"; };
+		1BA2C5F21BC920210031AFFC /* TTStubHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStubHTTPClient.m; sourceTree = "<group>"; };
+		1BA2C5F41BC9234E0031AFFC /* TTMockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMockObserver.h; sourceTree = "<group>"; };
+		1BA2C5F51BC9234E0031AFFC /* TTMockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMockObserver.m; sourceTree = "<group>"; };
+		1BA2C5F71BC924670031AFFC /* TTStubUserBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTStubUserBuilder.h; sourceTree = "<group>"; };
+		1BA2C5F81BC924670031AFFC /* TTStubUserBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTStubUserBuilder.m; sourceTree = "<group>"; };
+		1BA2C5FA1BC937D40031AFFC /* TTSoundCloudManager+TTTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTSoundCloudManager+TTTests.h"; sourceTree = "<group>"; };
+		1BA2C5FB1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTSoundCloudManager+TTTests.m"; sourceTree = "<group>"; };
+		1BAB093C1BC3C99D003F6256 /* TTSoundCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSoundCloudManager.h; sourceTree = "<group>"; };
+		1BAB093D1BC3C99D003F6256 /* TTSoundCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSoundCloudManager.m; sourceTree = "<group>"; };
+		1BAB09441BC3CC9A003F6256 /* TTFetchObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFetchObserver.h; sourceTree = "<group>"; };
+		1BAB094C1BC403DE003F6256 /* TTMockSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMockSession.h; sourceTree = "<group>"; };
+		1BAB094D1BC403DE003F6256 /* TTMockSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMockSession.m; sourceTree = "<group>"; };
+		1BAB094F1BC40AFC003F6256 /* TTHTTPClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTHTTPClientTests.m; path = TTChallengeTests/TTHTTPClientTests.m; sourceTree = SOURCE_ROOT; };
+		1BAB09511BC4293E003F6256 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9959E01BC2BD750070B1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9959FC1BC2BD760070B1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B43B6AC1BC52998004A9887 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				1B73607A1BC7FF8300CC76C9 /* TTParsedUser.h */,
+				1B73607B1BC7FF8300CC76C9 /* TTParsedUser.m */,
+				1B73607E1BC7FF9F00CC76C9 /* TTParsedTrack.h */,
+				1B73607F1BC7FF9F00CC76C9 /* TTParsedTrack.m */,
+				1B43B6AD1BC529B5004A9887 /* TTUserBuilder.h */,
+				1B43B6AE1BC529B5004A9887 /* TTUserBuilder.m */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		1B43B6B51BC52C80004A9887 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B43B6B61BC52CA8004A9887 /* TTDefines.h */,
+				1B19342B1BCBAE6500DF3D33 /* TTConstants.h */,
+				1B19342C1BCBAE6500DF3D33 /* TTConstants.m */,
+				1B19342E1BCBB1EC00DF3D33 /* NSString+TTExtras.h */,
+				1B19342F1BCBB1EC00DF3D33 /* NSString+TTExtras.m */,
+				1BA1E5381BCA831A00F02C1C /* UIImage+TTExtras.h */,
+				1BA1E5391BCA831A00F02C1C /* UIImage+TTExtras.m */,
+				1B43B6B81BC53B5E004A9887 /* NSDictionary+TTExtras.h */,
+				1B43B6B91BC53B5E004A9887 /* NSDictionary+TTExtras.m */,
+				1BA1E5251BCA81D000F02C1C /* UIImageEffects.h */,
+				1BA1E5261BCA81D000F02C1C /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1B7D42EA1BCBDB4300F32CAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B7D42EB1BCBDB4300F32CAE /* icon@2x.png */,
+				1B7D42EC1BCBDB4300F32CAE /* icon@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B9959DA1BC2BD750070B1E4 = {
+			isa = PBXGroup;
+			children = (
+				1B9959E51BC2BD760070B1E4 /* TTChallenge */,
+				1B995A021BC2BD760070B1E4 /* TTChallengeTests */,
+				1B9959E41BC2BD760070B1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9959E41BC2BD760070B1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9959E31BC2BD760070B1E4 /* TTChallenge.app */,
+				1B9959FF1BC2BD760070B1E4 /* TTChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9959E51BC2BD760070B1E4 /* TTChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				1B9959EA1BC2BD760070B1E4 /* TTAppDelegate.h */,
+				1B9959EB1BC2BD760070B1E4 /* TTAppDelegate.m */,
+				1B9959F01BC2BD760070B1E4 /* TTMainViewController.h */,
+				1B9959F11BC2BD760070B1E4 /* TTMainViewController.m */,
+				1B9959F31BC2BD760070B1E4 /* Main.storyboard */,
+				1BA1E5241BCA802400F02C1C /* View */,
+				1B995A0F1BC3B7FF0070B1E4 /* Model */,
+				1B43B6B51BC52C80004A9887 /* Utils */,
+				1B7D42EA1BCBDB4300F32CAE /* Resources */,
+				1B9959F61BC2BD760070B1E4 /* Images.xcassets */,
+				1B9959F81BC2BD760070B1E4 /* LaunchScreen.xib */,
+				1B9959ED1BC2BD760070B1E4 /* TTChallenge.xcdatamodeld */,
+				1B9959E61BC2BD760070B1E4 /* Supporting Files */,
+			);
+			path = TTChallenge;
+			sourceTree = "<group>";
+		};
+		1B9959E61BC2BD760070B1E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9959E71BC2BD760070B1E4 /* Info.plist */,
+				1B9959E81BC2BD760070B1E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B995A021BC2BD760070B1E4 /* TTChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BAB094B1BC403DE003F6256 /* Mocks */,
+				1BAB094F1BC40AFC003F6256 /* TTHTTPClientTests.m */,
+				1B995A051BC2BD760070B1E4 /* TTChallengeTests.m */,
+				1B7360821BC8161F00CC76C9 /* TTParsedUserTests.m */,
+				1BA2C5DE1BC8F8D20031AFFC /* TTParsedTrackTests.m */,
+				1BA2C5E91BC907CF0031AFFC /* TTUserBuilderTests.m */,
+				1BA2C5EC1BC91B250031AFFC /* TTSoundCloudManagerTests.m */,
+				1B995A031BC2BD760070B1E4 /* Supporting Files */,
+			);
+			path = TTChallengeTests;
+			sourceTree = "<group>";
+		};
+		1B995A031BC2BD760070B1E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B995A041BC2BD760070B1E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B995A0F1BC3B7FF0070B1E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BAB09441BC3CC9A003F6256 /* TTFetchObserver.h */,
+				1BAB093C1BC3C99D003F6256 /* TTSoundCloudManager.h */,
+				1BAB093D1BC3C99D003F6256 /* TTSoundCloudManager.m */,
+				1B43B6AC1BC52998004A9887 /* Builders */,
+				1B995A101BC3B7FF0070B1E4 /* CoreData */,
+				1B995A111BC3B7FF0070B1E4 /* Networking */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B995A101BC3B7FF0070B1E4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1B43B6A41BC520F3004A9887 /* TTUser.h */,
+				1B43B6A51BC520F3004A9887 /* TTUser.m */,
+				1B7360721BC7CBA300CC76C9 /* TTTrack.h */,
+				1B7360731BC7CBA300CC76C9 /* TTTrack.m */,
+				1B7360761BC7F54D00CC76C9 /* TTCoreDataManager.h */,
+				1B7360771BC7F54D00CC76C9 /* TTCoreDataManager.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1B995A111BC3B7FF0070B1E4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1B995A1A1BC3BAF30070B1E4 /* TTHTTPClient.h */,
+				1B995A1B1BC3BAF30070B1E4 /* TTHTTPClient.m */,
+				1B995A1C1BC3BAF30070B1E4 /* TTImageCache.h */,
+				1B995A1D1BC3BAF30070B1E4 /* TTImageCache.m */,
+				1B995A141BC3BA670070B1E4 /* TTReachability.h */,
+				1B995A151BC3BA670070B1E4 /* TTReachability.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1BA1E5241BCA802400F02C1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BA1E5291BCA825100F02C1C /* TTBlurredImageView.h */,
+				1BA1E52A1BCA825100F02C1C /* TTBlurredImageView.m */,
+				1BA1E52B1BCA825100F02C1C /* TTGradientBackgroundView.h */,
+				1BA1E52C1BCA825100F02C1C /* TTGradientBackgroundView.m */,
+				1BA1E52D1BCA825100F02C1C /* TTGradientBackgroundView.xib */,
+				1BA1E52E1BCA825100F02C1C /* TTImageView.h */,
+				1BA1E52F1BCA825100F02C1C /* TTImageView.m */,
+				1BA1E53C1BCA8BF200F02C1C /* TTTrackTableViewCell.h */,
+				1BA1E53D1BCA8BF200F02C1C /* TTTrackTableViewCell.m */,
+				1BA1E53E1BCA8BF200F02C1C /* TTTrackTableViewCell.xib */,
+				1BA1E54A1BCAC7F500F02C1C /* TTUserSectionHeaderView.h */,
+				1BA1E54B1BCAC7F500F02C1C /* TTUserSectionHeaderView.m */,
+				1BA1E54E1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BAB094B1BC403DE003F6256 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAB09511BC4293E003F6256 /* test.png */,
+				1BAB094C1BC403DE003F6256 /* TTMockSession.h */,
+				1BAB094D1BC403DE003F6256 /* TTMockSession.m */,
+				1BA2C5E01BC902950031AFFC /* TTMockCoreDataManager.h */,
+				1BA2C5E11BC902950031AFFC /* TTMockCoreDataManager.m */,
+				1BA2C5EE1BC91BBC0031AFFC /* TTStubReachability.h */,
+				1BA2C5EF1BC91BBC0031AFFC /* TTStubReachability.m */,
+				1BA2C5F11BC920210031AFFC /* TTStubHTTPClient.h */,
+				1BA2C5F21BC920210031AFFC /* TTStubHTTPClient.m */,
+				1BA2C5F41BC9234E0031AFFC /* TTMockObserver.h */,
+				1BA2C5F51BC9234E0031AFFC /* TTMockObserver.m */,
+				1BA2C5F71BC924670031AFFC /* TTStubUserBuilder.h */,
+				1BA2C5F81BC924670031AFFC /* TTStubUserBuilder.m */,
+				1BA2C5FA1BC937D40031AFFC /* TTSoundCloudManager+TTTests.h */,
+				1BA2C5FB1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9959E21BC2BD750070B1E4 /* TTChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B995A091BC2BD760070B1E4 /* Build configuration list for PBXNativeTarget "TTChallenge" */;
+			buildPhases = (
+				1B9959DF1BC2BD750070B1E4 /* Sources */,
+				1B9959E01BC2BD750070B1E4 /* Frameworks */,
+				1B9959E11BC2BD750070B1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTChallenge;
+			productName = TTChallenge;
+			productReference = 1B9959E31BC2BD760070B1E4 /* TTChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9959FE1BC2BD760070B1E4 /* TTChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B995A0C1BC2BD760070B1E4 /* Build configuration list for PBXNativeTarget "TTChallengeTests" */;
+			buildPhases = (
+				1B9959FB1BC2BD760070B1E4 /* Sources */,
+				1B9959FC1BC2BD760070B1E4 /* Frameworks */,
+				1B9959FD1BC2BD760070B1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B995A011BC2BD760070B1E4 /* PBXTargetDependency */,
+			);
+			name = TTChallengeTests;
+			productName = TTChallengeTests;
+			productReference = 1B9959FF1BC2BD760070B1E4 /* TTChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9959DB1BC2BD750070B1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TT;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = vinogradnaya;
+				TargetAttributes = {
+					1B9959E21BC2BD750070B1E4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1B9959FE1BC2BD760070B1E4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1B9959E21BC2BD750070B1E4;
+					};
+				};
+			};
+			buildConfigurationList = 1B9959DE1BC2BD750070B1E4 /* Build configuration list for PBXProject "TTChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B9959DA1BC2BD750070B1E4;
+			productRefGroup = 1B9959E41BC2BD760070B1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9959E21BC2BD750070B1E4 /* TTChallenge */,
+				1B9959FE1BC2BD760070B1E4 /* TTChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9959E11BC2BD750070B1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAB09531BC42C8E003F6256 /* test.png in Resources */,
+				1B7D42ED1BCBDB4300F32CAE /* icon@2x.png in Resources */,
+				1B7D42EE1BCBDB4300F32CAE /* icon@3x.png in Resources */,
+				1BA1E5411BCA8BF200F02C1C /* TTTrackTableViewCell.xib in Resources */,
+				1BA1E5341BCA825100F02C1C /* TTGradientBackgroundView.xib in Resources */,
+				1BA1E54F1BCAC80C00F02C1C /* TTUserSectionHeaderView.xib in Resources */,
+				1B9959F51BC2BD760070B1E4 /* Main.storyboard in Resources */,
+				1B9959FA1BC2BD760070B1E4 /* LaunchScreen.xib in Resources */,
+				1B9959F71BC2BD760070B1E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9959FD1BC2BD760070B1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAB09521BC4293E003F6256 /* test.png in Resources */,
+				1BA1E5501BCAC80C00F02C1C /* TTUserSectionHeaderView.xib in Resources */,
+				1BA1E5421BCA8BF200F02C1C /* TTTrackTableViewCell.xib in Resources */,
+				1BA1E5351BCA825100F02C1C /* TTGradientBackgroundView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9959DF1BC2BD750070B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA1E53A1BCA831A00F02C1C /* UIImage+TTExtras.m in Sources */,
+				1BA1E5301BCA825100F02C1C /* TTBlurredImageView.m in Sources */,
+				1B9959EF1BC2BD760070B1E4 /* TTChallenge.xcdatamodeld in Sources */,
+				1BA2C5FD1BC937E00031AFFC /* TTSoundCloudManager+TTTests.m in Sources */,
+				1B995A181BC3BA670070B1E4 /* TTReachability.m in Sources */,
+				1B1934301BCBB1EC00DF3D33 /* NSString+TTExtras.m in Sources */,
+				1B73607C1BC7FF8300CC76C9 /* TTParsedUser.m in Sources */,
+				1BA1E5321BCA825100F02C1C /* TTGradientBackgroundView.m in Sources */,
+				1B43B6AF1BC529B5004A9887 /* TTUserBuilder.m in Sources */,
+				1B9959EC1BC2BD760070B1E4 /* TTAppDelegate.m in Sources */,
+				1B7360801BC7FF9F00CC76C9 /* TTParsedTrack.m in Sources */,
+				1B43B6BA1BC53B5E004A9887 /* NSDictionary+TTExtras.m in Sources */,
+				1BA1E54C1BCAC7F500F02C1C /* TTUserSectionHeaderView.m in Sources */,
+				1B9959F21BC2BD760070B1E4 /* TTMainViewController.m in Sources */,
+				1B19342D1BCBAE6500DF3D33 /* TTConstants.m in Sources */,
+				1B7360741BC7CBA300CC76C9 /* TTTrack.m in Sources */,
+				1BA1E53F1BCA8BF200F02C1C /* TTTrackTableViewCell.m in Sources */,
+				1B995A201BC3BAF30070B1E4 /* TTImageCache.m in Sources */,
+				1B9959E91BC2BD760070B1E4 /* main.m in Sources */,
+				1B995A1E1BC3BAF30070B1E4 /* TTHTTPClient.m in Sources */,
+				1B43B6A61BC520F3004A9887 /* TTUser.m in Sources */,
+				1B7360781BC7F54D00CC76C9 /* TTCoreDataManager.m in Sources */,
+				1BAB093E1BC3C99D003F6256 /* TTSoundCloudManager.m in Sources */,
+				1BA1E5271BCA81D000F02C1C /* UIImageEffects.m in Sources */,
+				1BA1E5361BCA825100F02C1C /* TTImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9959FB1BC2BD760070B1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B995A191BC3BA670070B1E4 /* TTReachability.m in Sources */,
+				1BA2C5F31BC920210031AFFC /* TTStubHTTPClient.m in Sources */,
+				1BAB09501BC40AFC003F6256 /* TTHTTPClientTests.m in Sources */,
+				1BA2C5E21BC902950031AFFC /* TTMockCoreDataManager.m in Sources */,
+				1B7360811BC7FF9F00CC76C9 /* TTParsedTrack.m in Sources */,
+				1B7360751BC7CBA300CC76C9 /* TTTrack.m in Sources */,
+				1B43B6A71BC520F3004A9887 /* TTUser.m in Sources */,
+				1BA2C5DF1BC8F8D20031AFFC /* TTParsedTrackTests.m in Sources */,
+				1BA2C5ED1BC91B250031AFFC /* TTSoundCloudManagerTests.m in Sources */,
+				1BA2C5F91BC924670031AFFC /* TTStubUserBuilder.m in Sources */,
+				1B995A211BC3BAF30070B1E4 /* TTImageCache.m in Sources */,
+				1BA2C5F01BC91BBC0031AFFC /* TTStubReachability.m in Sources */,
+				1BA1E5311BCA825100F02C1C /* TTBlurredImageView.m in Sources */,
+				1BA1E5331BCA825100F02C1C /* TTGradientBackgroundView.m in Sources */,
+				1B43B6B01BC529B5004A9887 /* TTUserBuilder.m in Sources */,
+				1BA1E54D1BCAC7F500F02C1C /* TTUserSectionHeaderView.m in Sources */,
+				1BA1E5371BCA825100F02C1C /* TTImageView.m in Sources */,
+				1BA2C5FC1BC937D40031AFFC /* TTSoundCloudManager+TTTests.m in Sources */,
+				1BA2C5F61BC9234E0031AFFC /* TTMockObserver.m in Sources */,
+				1B995A061BC2BD760070B1E4 /* TTChallengeTests.m in Sources */,
+				1B73607D1BC7FF8300CC76C9 /* TTParsedUser.m in Sources */,
+				1B7360791BC7F54D00CC76C9 /* TTCoreDataManager.m in Sources */,
+				1BA1E53B1BCA831A00F02C1C /* UIImage+TTExtras.m in Sources */,
+				1BAB094E1BC403DE003F6256 /* TTMockSession.m in Sources */,
+				1BA2C5EA1BC907CF0031AFFC /* TTUserBuilderTests.m in Sources */,
+				1BA1E5281BCA81D000F02C1C /* UIImageEffects.m in Sources */,
+				1B995A1F1BC3BAF30070B1E4 /* TTHTTPClient.m in Sources */,
+				1BAB093F1BC3C99D003F6256 /* TTSoundCloudManager.m in Sources */,
+				1BA1E5401BCA8BF200F02C1C /* TTTrackTableViewCell.m in Sources */,
+				1B7360831BC8161F00CC76C9 /* TTParsedUserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B995A011BC2BD760070B1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9959E21BC2BD750070B1E4 /* TTChallenge */;
+			targetProxy = 1B995A001BC2BD760070B1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B9959F31BC2BD760070B1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9959F41BC2BD760070B1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9959F81BC2BD760070B1E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9959F91BC2BD760070B1E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B995A071BC2BD760070B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B995A081BC2BD760070B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B995A0A1BC2BD760070B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dave Roeloffs (83MQC9H7F2)";
+				INFOPLIST_FILE = TTChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B995A0B1BC2BD760070B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dave Roeloffs (N6ERM85YX4)";
+				INFOPLIST_FILE = TTChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B995A0D1BC2BD760070B1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTChallenge.app/TTChallenge";
+			};
+			name = Debug;
+		};
+		1B995A0E1BC2BD760070B1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTChallenge.app/TTChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9959DE1BC2BD750070B1E4 /* Build configuration list for PBXProject "TTChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B995A071BC2BD760070B1E4 /* Debug */,
+				1B995A081BC2BD760070B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B995A091BC2BD760070B1E4 /* Build configuration list for PBXNativeTarget "TTChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B995A0A1BC2BD760070B1E4 /* Debug */,
+				1B995A0B1BC2BD760070B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B995A0C1BC2BD760070B1E4 /* Build configuration list for PBXNativeTarget "TTChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B995A0D1BC2BD760070B1E4 /* Debug */,
+				1B995A0E1BC2BD760070B1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B9959ED1BC2BD760070B1E4 /* TTChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B9959EE1BC2BD760070B1E4 /* TTChallenge.xcdatamodel */,
+			);
+			currentVersion = 1B9959EE1BC2BD760070B1E4 /* TTChallenge.xcdatamodel */;
+			path = TTChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B9959DB1BC2BD750070B1E4 /* Project object */;
+}
